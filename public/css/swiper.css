@@ -1,0 +1,30 @@
+.swiper {
+    width: auto;
+    height: 100vh;
+}
+
+.swiperTeachers {
+    width: 40%;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.swiperTeachersContent {
+    width: 40%;
+    margin-top: 10%;
+    height: 60vh;
+    margin-left: 15%;
+}
+
+.swiperTraining {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* .swiper-button-prev{
+  margin-left: 20%;
+}
+.swiper-button-next{
+  margin-right: 20%;
+} */

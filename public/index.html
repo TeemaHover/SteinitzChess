@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/chessTable.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/training.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chess</title>
+</head>
+
+<body>
+    <div class="swiper">
+        <section id="nav">
+            <div class="navFIT">
+                <img src="./imgs/LogoBlack.png" alt="">
+
+            </div>
+            <ul>
+                <li><button onclick="slideTo(0)"><img src="./imgs/chess-king-solid.svg" alt=""></button></li>
+                <li><button onclick="slideTo(1)"><img src="./imgs/chess-queen-solid.svg" alt=""></buttton>
+                </li>
+                <li><button onclick="slideTo(2)"><img src="./imgs/chess-rook-solid.svg" alt=""></buttton>
+                </li>
+                <li><button onclick="slideTo(3)"><img src="./imgs/chess-knight-solid.svg" alt=""></buttton>
+                </li>
+                <li><button onclick="slideTo(4)"><img src="./imgs/chess-bishop-solid.svg" alt=""></buttton>
+                </li>
+                <li><button onclick="slideTo(5)"><img src="./imgs/chess-pawn-solid.svg" alt=""></buttton>
+                </li>
+
+            </ul>
+            <div class="navBtn">
+                <a href=""><img src="./imgs/brain-solid.svg" alt=""></a>
+            </div>
+        </section>
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide" id="page1">
+                <div class="headSlide">
+                    <div class="headSlideLeft">
+                        <div class="headSlideLeftContainer">
+                            <div class="headSlideImg">
+                                <img src="./imgs/LogoBlack.png" alt="">
+                            </div>
+                            <div class="headSlideText">
+                                <h1>ACADEMIC</h1>
+                                <h2>Chess</h2>
+                                <p>Best chess Sets,Tablets & Clock</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="headSlideRight">
+                        <div class="homeBackKing">
+                            <img src="./imgs/HomeBackKing.png" alt="">
+                        </div>
+                        <div class="homeBack">
+                            <img src="./imgs/homeBack.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" id="page2">
+                <div class="rankBack"></div>
+                <section id="rank">
+                    <div class="rankTop">
+                        <h1 style="color: #FEDD00;">Lorem ipsum Lorem Lorem</h1>
+                        <h2 style="color: white;">Стейниц Монголын Шатрын Академи нь 2019 оны 9 сард Дэлхийн Шатрын
+                            Холбооны Мастер Гижирийн МӨНХБАЯР-ын санаачлагаар үүсгэн байгуулагдсан ба 1 /нэг/ жилийн
+                            дотор Монгол Улсын Өсвөрийн Улсын Аварга Шалгаруулах Тэмцээнд багаараа гутгаар байранд орж
+                            Монголын топ 3 шатрын сургалтын төвийн нэг болсон билээ. Өдгөө 7 багштай, нийт 10 орчим
+                            ажилчидтай, өсвөрийн 100 хүүхэд, насанд хүрсэн 50 орчим суралцагч тасралтгүй хичээллэж
+                            байна. Академи нь үүсгэн байгуулагдсан цагаас клубийн статусаас салж жилийн сургалтын
+                            хөтөлбөртэйгээр урт хугацаанд бэлтгэл сургуулилтаар хангаж шатрын мэргэжилтэй, мэргэжилтэн,
+                            шилдэг тамирчидыг бэлтгэхэд зорилго, үйл ажиллагаагаа чиглүүлэн эрчимтэй ажиллаж байна.
+                        </h2>
+                    </div>
+                    <div class="rankMiddle">
+                        <div class="rankMiddleImg">
+                            <div class="rankMiddleImgFit"><img src="./imgs/advantages1.JPG" alt=""></div>
+                            <div class="rankMiddleImgFit">
+                                <img id="myBtn" src="./imgs/advantages2.JPG" alt="">
+                                <div id="myModal" class="modal">
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <div class="ourGallery">
+
+                                            <div class="ourGalleryContainer">
+                                                <div class="ourGalleryBack"></div>
+                                                <div class="swiper2">
+                                                    <div class="swiper-wrapper">
+
+                                                        <div class="swiper-slide">
+                                                            <div class="ourGalleryBox">
+                                                                <img src="./imgs/ourGallery2.JPG" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="ourGalleryBox">
+                                                                <img src="./imgs/ourGallery2.JPG" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="ourGalleryBox">
+                                                                <img src="./imgs/ourGallery3.JPG" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="ourGalleryBox">
+                                                                <img src="./imgs/ourGallery3.JPG" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="swiper-pagination"></div>
+
+
+                                                    <div class="swiper-button-prev"></div>
+                                                    <div class="swiper-button-next"></div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rankMiddleImgFit">
+                                <img id="myBtn1" src="./imgs/advantages3.JPG" alt="">
+                                <div id="myModal1" class="modal-ceo">
+                                    <div class="modal-content-ceo">
+                                        <span class="close close1">&times;</span>
+                                        <div class="ceo">
+                                            <div class="ceoContainer">
+                                                <div class="ceoContainerLeft">
+                                                    <img src="./imgs/chessCeo.PNG" alt="">
+                                                </div>
+                                                <div class="ceoContainerRight">
+                                                    <h1>Acedemic chess for kids</h1>
+                                                    <p>Kids Chess Club is a non-profit Company founded by International
+                                                        Chess Master Larry Evans and Tom Callaghan as a way to provide
+                                                        more chess classes to more kids.</p>
+                                                    <p>Our goal is to teach children in grades K-12 abstract concepts of
+                                                        planning, analysis and strategy through the game of chess. Kids
+                                                        will be excited to understand and amazed by the positive
+                                                        experience that chess offers.</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="ceoContainerBottom">
+                                                <p>"</p>
+                                                <h3>lorem ipsumlorem ipsumlorem ipsumlorem ipsum</h3>
+                                                <p>"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rankMiddleText">
+                            <div class="rankMiddleTextFit">
+                                <h3>Зорилго</h3>
+                            </div>
+                            <div class="rankMiddleTextFit">
+                                <h3>Орчин</h3>
+                            </div>
+                            <div class="rankMiddleTextFit">
+                                <h3>Үүсгэн байгуулагч</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="rankBottom">
+                        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-slide" id="page3">
+                <div class="rankBack"></div>
+                <div class="teachers">
+                    <div class="teachersContainer">
+
+                        <div class="swiperTeachers">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="teachersBox">
+                                        <img src="./imgs/1.JPG" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBox">
+                                        <img src="./imgs/2.JPG" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBox">
+                                        <img src="./imgs/3.JPG" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBox">
+                                        <img src="./imgs/4.JPG" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBox">
+                                        <img src="./imgs/5.JPG" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+
+                        <div class="swiperTeachersContent">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="teachersBoxContent">
+                                        <h3>Нэр: Б.Анхбаяр</h3>
+                                        <h3>Зэрэг:</h3>
+                                        <h3>Амжилт:</h3>
+                                        <h3>Ажлын туршлага:</h3>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBoxContent">
+                                        <h3>Нэр: М.Батням</h3>
+                                        <h3>Зэрэг:</h3>
+                                        <h3>Амжилт:</h3>
+                                        <h3>Ажлын туршлага:</h3>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBoxContent">
+                                        <h3>Нэр: Г.Энхбаяр</h3>
+                                        <h3>Зэрэг:</h3>
+                                        <h3>Амжилт:</h3>
+                                        <h3>Ажлын туршлага:</h3>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBoxContent">
+                                        <h3>Нэр: Б.Болдбаатар</h3>
+                                        <h3>Зэрэг:</h3>
+                                        <h3>Амжилт:</h3>
+                                        <h3>Ажлын туршлага:</h3>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="teachersBoxContent">
+                                        <h3>Нэр: Б.Ану</h3>
+                                        <h3>Зэрэг:</h3>
+                                        <h3>Амжилт:</h3>
+                                        <h3>Ажлын туршлага:</h3>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" id="page4">
+                <section id="replayTraining">
+                    <div class="replayTrainingContainer">
+                        <div style="border-right: white solid 1px;" class="replayTrainingBox">
+                            <h3>НАСАНД ХҮРЭГЧДИЙН СУРГАЛТ</h3>
+                            <img id="" onclick="openDisplay0()"
+                                class="animate__animated animate__pulse animate__infinite myBtnLesson"
+                                src="./imgs/chess-bishop-solid.png" alt="">
+                            <div id="myModalLesson0" class="modal-Lesson">
+                                <div class="modal-content-Lesson">
+                                    <span class="close closeLesson" onclick="closeDisplay0()">&times;</span>
+                                    <div class="replayTrainingContent">
+                                        <div class="swiperTraining">
+
+                                            <div class="swiper-wrapper">
+
+                                                <div class="swiper-slide">
+                                                    <h1>Насанд хүрэгчдийн анги/16 наснаас дээш/</h1>
+                                                    <h1>ЭРХЭМ ЗОРИЛГО: Шатрын Ухааныг Амьдралд</h1>
+                                                    <h1>СУРГАЛТЫН УРИА: Хоббиг чадвар болгоё </h1>
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>СУРГАЛТЫН ЗОРИЛГО:</h1>
+                                                            <p> Шатар сонирхогчдод мэргэжлийн шатарчин
+                                                                хүний онолын гүн мэдлэг, харах өнцөг, сэтгэлзүй,
+                                                                тодорхой
+                                                                туршлага гэх томоохон ур чадваруудаас суулгаж өгөх ба
+                                                                ирээдүйд 1-3 жилийн дотор Монгол улсын дэд мастер,
+                                                                спортын
+                                                                мастер цолын болзол хангуулах чухал элементүүдийг
+                                                                хичээлийн
+                                                                багц дундаа шингээж хүргэх мөн мянга мянган жил
+                                                                батлагдан
+                                                                ирсэн шатрын менежментийн ухаан болох стратеги,
+                                                                тактикийн
+                                                                гүн ойлголт, эрсдэл бага, өгөөж өндөр, шийдвэр гаргалт,
+                                                                үндэслэлтэй тооцоолох, эрсдэлийг нүүдэл тутамдаа бодох,
+                                                                алсыг харах, үнэлэн дүгнэх, тодорхой байрлалд
+                                                                өрсөлдөгчөө
+                                                                таамаглан унших, мэдрэх зэрэг амьдралд хэрэгтэй
+                                                                ухагдахуунуудыг шатраар дамжуулан өгөхөд оршино. </p>
+                                                                <h1>СУРГАЛТЫН ДАВУУ ТАЛУУД:</h1>
+                                                            <p>
+                                                                - Заагдах хичээл нь 18 жил шатрын спортоор хичээллэсэн,
+                                                                6
+                                                                жил мэргэжлийн дасгалжуулагчаар ажилласан, академийн
+                                                                үүсгэн
+                                                                байгуулагч, дэлхийн шатрын холбооны мастер, сонирхогчдын
+                                                                дэлхийн аварга, хөрөнгө оруулагч, санхүүч мэргэжилтэй,
+                                                                munkhbayar's chess youtube сувгийн хөтлөгч Мөнхбаяр
+                                                                дасгалжуулагчийн боловсруулсан хөтөлбөрийн дагуу хичээл
+                                                                явагдана.
+                                                                - Үндсэн видео хичээлийг бататгах, суралцагчийн
+                                                                тоглолтын
+                                                                алдаа оноог тодорхойлох, цаашид хэрхэн хичээллэх хувь
+                                                                хүнд
+                                                                тохирсон арга барилыг боловсруулж өгөх зэрэг
+                                                                дадлагажуулах,
+                                                                туршлагажуулах зорилгоор танхимаар амьд харилцааг
+                                                                Мөнхбаяр
+                                                                багштай үүсгэх хичээлтэй.
+                                                                - Академийн боловсруулсан зүүн тархи хөгжүүлэх дасгал
+                                                                болох
+                                                                шатрын бодлого дасгал ажлын цуврал номыг өгнө. Энэхүү
+                                                                дасгал
+                                                                ажлуудыг өдөр бүр тогтмол шалгаж, тооцоолох чадварыг
+                                                                нэмэгдүүлнэ. Цахим хэлбэрээр тогтмол алдаа, оноог шалгаж
+                                                                зөвлөмжийг тогтмол өгнө.
+                                                                - Ангид цахим тоглолтын баг үүсгэж 7 хоног бүр тогтмол 1
+                                                                удаагийн тэмцээнийг хийж байх болно. Энэхүү хоорондоо
+                                                                тоглох
+                                                                тэмцээний өрөг дээр Мөнхбаяр багш өөрөө шинжилгээ хийж,
+                                                                алдаа оноог видео хичээл болгон байршуулах болно.
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <h1>СУРГАЛТЫН ҮЙЛ ЯВЦ, МЭДЭЭЛЭЛ:</h1>
+                                                            <p>
+                                                                - 7 хоногт 3 хичээл байршуулна. /Даваа, Лхагва, Баасан/
+                                                                1
+                                                                багцад 9 хичээл байрших тул 1 багцийг 21 хоногоор бодож
+                                                                болно. Дараагийн хичээл байрших үед өмнөх хичээл нь
+                                                                идэвхигүй болно. Өмнөх өмнөх ангийн туршлагаас үзэхэд
+                                                                хичээлээ тэмдэглэгээ хийж үзээгүйгээс болж хичээл устах
+                                                                үед
+                                                                нээлгүүлэх хүсэлт их ирүүлж байсан. Тийм боломж байхгүй
+                                                                тул
+                                                                анхнаасаа бичиж, тэмдэглэж нухацтай үзэхийг шаардаж
+                                                                байна.
+                                                                - 7 хоногийн 3 /Даваа, Лхагва, Баасан/ өдрүүдэд 20:00
+                                                                цагуудад бодлогыг явуулж шалгуулна. 1 багцийн 9 удаагийн
+                                                                шалгуулалтын 2-т нь бодлого явуулаагүй үед сургалтыг
+                                                                зогсоох
+                                                                болно. Бодлого дээр гацалт үүсвэл тэр дорно бодлого
+                                                                шалгалтын багшаасаа асуух хэрэгтэй. Бодлого бол бидний
+                                                                хурдтай сайжрах боломж.
+                                                                - 7 хоногт 1 удаа /Бямба гариг/ 18:30-21:30 цагт анги
+                                                                дундах
+                                                                тэмцээн болно. Тоглолт нь цаг тааруулаад яг цагтаа
+                                                                эхэлдэг
+                                                                тул хоцрох үед нөгөөдөө нөлөөлөх тул хариуцлагатай
+                                                                тоглож
+                                                                байхыг шаардана. Тухайн өдөр тоглох боломжгүй болвол
+                                                                урьдчилан тэмцээндээ нэрээ идэвхигүй болговол нөгөөдөө
+                                                                нөлөөлөхгүй байна. Тэмцээний дараа Мөнхбаяр багш алдаа
+                                                                онооны зөволөмжийн видео оруулаад явна.
+                                                                - 6 багцийн Видео хичээл дууссаны дараагаар Даваа,
+                                                                Лхагва,
+                                                                Баасан гаригт ажлын цагийн дараа 18:30-20:30-д Мөнхбаяр
+                                                                багштай 3 удаагийн зэрэг тоглолт хийж зөвлөгөө авна. Мөн
+                                                                нэмэлт хичээл бодитоор орох юм.
+                                                                - Бодлогыг туслах багш тогтмол шалгаад явна. /Батням,
+                                                                Спортын дэд мастер/
+                                                                - Хичээлтэй холбоотой асуулт болон нэмэлт мэдээлэлтэй
+                                                                холбоотой асуултад Мөнхбаяр багш өөрөө хариулна.
+                                                                - 2-р багцийн дунд хэсэгээс танхим цуглаж чөлөөт
+                                                                тоглолтыг 7
+                                                                хоногт 1 удаа академийн байранд зохиох төлөвтэй.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>ТӨЛБӨР:</h1>
+                                                            <p>
+                                                                - Нийт 6 багц хичээл. Үндсэндээ 54 видео хичээл,
+                                                                нэмэлтээр
+                                                                бодитоор 3
+                                                                удаагийн практик тоглолт Мөнхбаяр багш гардаж хийнэ.
+                                                                - 6 багцийн үнэ 1,080,000₮
+                                                                - Төлбөрийг 3 хувааж төлөх боломжтой. /360,000₮/
+                                                                - Төлбөр төлөх данс: Хаан банк, 5018539912, Мөнхбаяр
+                                                                - Гүйлгээний утга: "Нэр, утас, сургалтын төлбөр" гэж
+                                                                бичээрэй.
+                                                            </p>
+                                                            <h1>ХОЛБОО БАРИХ:</h1>
+                                                            <p>
+                                                                - Утас: +976 86003553 /Мөнхбаяр багшийн өөрийнх нь утас
+                                                                болно./
+                                                                - Байршил: Хан уул дүүрэг, 2-р хороо, зам дагуу TV5
+                                                                телевизийн барилга, 8
+                                                                давхарт
+                                                                - Youtube: Munkhbayar’s Chess /Хичээлүүдийг сонирхон
+                                                                үзвэл.../
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <p>Ихэнх хүмүүс амьд харилцаатай хичээлд суухыг хүсдэг ч
+                                                                үнэхээр
+                                                                шатар сурах чин
+                                                                хүсэлтэй бол энэхүү дууны болон бичлэгийн гацалтгүй
+                                                                өндөр
+                                                                түвшинд
+                                                                бэлтгэгдсэн хичээлийг тухтай үзэж дуусгахад дараа нь
+                                                                танхимын болон цахимаар
+                                                                өшөө дээд шатруу амьд харилцаатай хичээл явагдахыг
+                                                                сануулая.
+                                                            </p>
+                                                            <p>Мөнхбаяр багшийн хувьд өмнө нь амьд харилцаатай заадаг
+                                                                байсан
+                                                                ч ачаалал их
+                                                                болж завгүй болсоны улмаас чанартай видео хичээл гаргах
+                                                                дээр
+                                                                ажилласан ба
+                                                                үүнээс цааш шатрын цолонд болон шатрын багшаар
+                                                                бэлтгэгдэхийг
+                                                                хүсвэл Мөнхбаяр
+                                                                багш өөрөө бие дааж туршлагажуулах ажилд оролцох юм.
+                                                            </p>
+                                                            <p>Гэхдээ энэхүү 6 багц 19 долоо хоногийн хичээлийг /сүүлийн
+                                                                7
+                                                                хоног танхимын
+                                                                практик/ хүргэхэд ойлгоогүй зүйлс дээр асуулт, хариултад
+                                                                үргэлж Мөнхбаяр
+                                                                багш өөрөө хариулж оролцож байна. Мөн Бодлого шалгахад
+                                                                академийн Батням багш
+                                                                шалгаж, тогтмол бодлого гацалт дээр туслана.</p>
+                                                            <p>Энэхүү багц сургалтыг дуусгахад өмнөх манай идэвхитэй
+                                                                төгсөлтийн группт орж
+                                                                үе үе танхимийн кофетой тэмцээнийг хийж байх болно.
+                                                                Хичээл
+                                                                дундуур ч байх
+                                                                боломжтой. кк </p>
+                                                            <p>Сургалтад хамрагдсан танд баярлалаа. Амжилт хүсье. </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-right: white solid 1px;" class="replayTrainingBox">
+                            <h3>СТЕЙНИЦ МША-ИЙН ХҮҮХДИЙН ҮНДСЭН АНГИЙН СУРГАЛТ</h3>
+                            <img id="" onclick="openDisplay1()"
+                                class="animate__animated animate__pulse animate__infinite myBtnLesson"
+                                src="./imgs/chess-king-solid.png" alt="">
+                            <div id="myModalLesson1" class="modal-Lesson">
+                                <div class="modal-content-Lesson">
+                                    <span class="close closeLesson" onclick="closeDisplay1()">&times;</span>
+                                    <div class="replayTrainingContent">
+                                        <div class="swiperTraining">
+
+                                            <div class="swiper-wrapper">
+
+                                                <div class="swiper-slide">
+                                                    <h1>Насанд хүрэгчдийн анги/16 наснаас дээш/</h1>
+                                                    <h1>ЭРХЭМ ЗОРИЛГО: Шатрын Ухааныг Амьдралд</h1>
+                                                    <h1>СУРГАЛТЫН УРИА: Хоббиг чадвар болгоё </h1>
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>СУРГАЛТЫН ЗОРИЛГО:</h1>
+                                                            <p> Шатар сонирхогчдод мэргэжлийн шатарчин
+                                                                хүний онолын гүн мэдлэг, харах өнцөг, сэтгэлзүй,
+                                                                тодорхой
+                                                                туршлага гэх томоохон ур чадваруудаас суулгаж өгөх ба
+                                                                ирээдүйд 1-3 жилийн дотор Монгол улсын дэд мастер,
+                                                                спортын
+                                                                мастер цолын болзол хангуулах чухал элементүүдийг
+                                                                хичээлийн
+                                                                багц дундаа шингээж хүргэх мөн мянга мянган жил
+                                                                батлагдан
+                                                                ирсэн шатрын менежментийн ухаан болох стратеги,
+                                                                тактикийн
+                                                                гүн ойлголт, эрсдэл бага, өгөөж өндөр, шийдвэр гаргалт,
+                                                                үндэслэлтэй тооцоолох, эрсдэлийг нүүдэл тутамдаа бодох,
+                                                                алсыг харах, үнэлэн дүгнэх, тодорхой байрлалд
+                                                                өрсөлдөгчөө
+                                                                таамаглан унших, мэдрэх зэрэг амьдралд хэрэгтэй
+                                                                ухагдахуунуудыг шатраар дамжуулан өгөхөд оршино. </p>
+                                                                <h1>СУРГАЛТЫН ДАВУУ ТАЛУУД:</h1>
+                                                            <p>
+                                                                - Заагдах хичээл нь 18 жил шатрын спортоор хичээллэсэн,
+                                                                6
+                                                                жил мэргэжлийн дасгалжуулагчаар ажилласан, академийн
+                                                                үүсгэн
+                                                                байгуулагч, дэлхийн шатрын холбооны мастер, сонирхогчдын
+                                                                дэлхийн аварга, хөрөнгө оруулагч, санхүүч мэргэжилтэй,
+                                                                munkhbayar's chess youtube сувгийн хөтлөгч Мөнхбаяр
+                                                                дасгалжуулагчийн боловсруулсан хөтөлбөрийн дагуу хичээл
+                                                                явагдана.
+                                                                - Үндсэн видео хичээлийг бататгах, суралцагчийн
+                                                                тоглолтын
+                                                                алдаа оноог тодорхойлох, цаашид хэрхэн хичээллэх хувь
+                                                                хүнд
+                                                                тохирсон арга барилыг боловсруулж өгөх зэрэг
+                                                                дадлагажуулах,
+                                                                туршлагажуулах зорилгоор танхимаар амьд харилцааг
+                                                                Мөнхбаяр
+                                                                багштай үүсгэх хичээлтэй.
+                                                                - Академийн боловсруулсан зүүн тархи хөгжүүлэх дасгал
+                                                                болох
+                                                                шатрын бодлого дасгал ажлын цуврал номыг өгнө. Энэхүү
+                                                                дасгал
+                                                                ажлуудыг өдөр бүр тогтмол шалгаж, тооцоолох чадварыг
+                                                                нэмэгдүүлнэ. Цахим хэлбэрээр тогтмол алдаа, оноог шалгаж
+                                                                зөвлөмжийг тогтмол өгнө.
+                                                                - Ангид цахим тоглолтын баг үүсгэж 7 хоног бүр тогтмол 1
+                                                                удаагийн тэмцээнийг хийж байх болно. Энэхүү хоорондоо
+                                                                тоглох
+                                                                тэмцээний өрөг дээр Мөнхбаяр багш өөрөө шинжилгээ хийж,
+                                                                алдаа оноог видео хичээл болгон байршуулах болно.
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <h1>СУРГАЛТЫН ҮЙЛ ЯВЦ, МЭДЭЭЛЭЛ:</h1>
+                                                            <p>
+                                                                - 7 хоногт 3 хичээл байршуулна. /Даваа, Лхагва, Баасан/
+                                                                1
+                                                                багцад 9 хичээл байрших тул 1 багцийг 21 хоногоор бодож
+                                                                болно. Дараагийн хичээл байрших үед өмнөх хичээл нь
+                                                                идэвхигүй болно. Өмнөх өмнөх ангийн туршлагаас үзэхэд
+                                                                хичээлээ тэмдэглэгээ хийж үзээгүйгээс болж хичээл устах
+                                                                үед
+                                                                нээлгүүлэх хүсэлт их ирүүлж байсан. Тийм боломж байхгүй
+                                                                тул
+                                                                анхнаасаа бичиж, тэмдэглэж нухацтай үзэхийг шаардаж
+                                                                байна.
+                                                                - 7 хоногийн 3 /Даваа, Лхагва, Баасан/ өдрүүдэд 20:00
+                                                                цагуудад бодлогыг явуулж шалгуулна. 1 багцийн 9 удаагийн
+                                                                шалгуулалтын 2-т нь бодлого явуулаагүй үед сургалтыг
+                                                                зогсоох
+                                                                болно. Бодлого дээр гацалт үүсвэл тэр дорно бодлого
+                                                                шалгалтын багшаасаа асуух хэрэгтэй. Бодлого бол бидний
+                                                                хурдтай сайжрах боломж.
+                                                                - 7 хоногт 1 удаа /Бямба гариг/ 18:30-21:30 цагт анги
+                                                                дундах
+                                                                тэмцээн болно. Тоглолт нь цаг тааруулаад яг цагтаа
+                                                                эхэлдэг
+                                                                тул хоцрох үед нөгөөдөө нөлөөлөх тул хариуцлагатай
+                                                                тоглож
+                                                                байхыг шаардана. Тухайн өдөр тоглох боломжгүй болвол
+                                                                урьдчилан тэмцээндээ нэрээ идэвхигүй болговол нөгөөдөө
+                                                                нөлөөлөхгүй байна. Тэмцээний дараа Мөнхбаяр багш алдаа
+                                                                онооны зөволөмжийн видео оруулаад явна.
+                                                                - 6 багцийн Видео хичээл дууссаны дараагаар Даваа,
+                                                                Лхагва,
+                                                                Баасан гаригт ажлын цагийн дараа 18:30-20:30-д Мөнхбаяр
+                                                                багштай 3 удаагийн зэрэг тоглолт хийж зөвлөгөө авна. Мөн
+                                                                нэмэлт хичээл бодитоор орох юм.
+                                                                - Бодлогыг туслах багш тогтмол шалгаад явна. /Батням,
+                                                                Спортын дэд мастер/
+                                                                - Хичээлтэй холбоотой асуулт болон нэмэлт мэдээлэлтэй
+                                                                холбоотой асуултад Мөнхбаяр багш өөрөө хариулна.
+                                                                - 2-р багцийн дунд хэсэгээс танхим цуглаж чөлөөт
+                                                                тоглолтыг 7
+                                                                хоногт 1 удаа академийн байранд зохиох төлөвтэй.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>ТӨЛБӨР:</h1>
+                                                            <p>
+                                                                - Нийт 6 багц хичээл. Үндсэндээ 54 видео хичээл,
+                                                                нэмэлтээр
+                                                                бодитоор 3
+                                                                удаагийн практик тоглолт Мөнхбаяр багш гардаж хийнэ.
+                                                                - 6 багцийн үнэ 1,080,000₮
+                                                                - Төлбөрийг 3 хувааж төлөх боломжтой. /360,000₮/
+                                                                - Төлбөр төлөх данс: Хаан банк, 5018539912, Мөнхбаяр
+                                                                - Гүйлгээний утга: "Нэр, утас, сургалтын төлбөр" гэж
+                                                                бичээрэй.
+                                                            </p>
+                                                            <h1>ХОЛБОО БАРИХ:</h1>
+                                                            <p>
+                                                                - Утас: +976 86003553 /Мөнхбаяр багшийн өөрийнх нь утас
+                                                                болно./
+                                                                - Байршил: Хан уул дүүрэг, 2-р хороо, зам дагуу TV5
+                                                                телевизийн барилга, 8
+                                                                давхарт
+                                                                - Youtube: Munkhbayar’s Chess /Хичээлүүдийг сонирхон
+                                                                үзвэл.../
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <p>Ихэнх хүмүүс амьд харилцаатай хичээлд суухыг хүсдэг ч
+                                                                үнэхээр
+                                                                шатар сурах чин
+                                                                хүсэлтэй бол энэхүү дууны болон бичлэгийн гацалтгүй
+                                                                өндөр
+                                                                түвшинд
+                                                                бэлтгэгдсэн хичээлийг тухтай үзэж дуусгахад дараа нь
+                                                                танхимын болон цахимаар
+                                                                өшөө дээд шатруу амьд харилцаатай хичээл явагдахыг
+                                                                сануулая.
+                                                            </p>
+                                                            <p>Мөнхбаяр багшийн хувьд өмнө нь амьд харилцаатай заадаг
+                                                                байсан
+                                                                ч ачаалал их
+                                                                болж завгүй болсоны улмаас чанартай видео хичээл гаргах
+                                                                дээр
+                                                                ажилласан ба
+                                                                үүнээс цааш шатрын цолонд болон шатрын багшаар
+                                                                бэлтгэгдэхийг
+                                                                хүсвэл Мөнхбаяр
+                                                                багш өөрөө бие дааж туршлагажуулах ажилд оролцох юм.
+                                                            </p>
+                                                            <p>Гэхдээ энэхүү 6 багц 19 долоо хоногийн хичээлийг /сүүлийн
+                                                                7
+                                                                хоног танхимын
+                                                                практик/ хүргэхэд ойлгоогүй зүйлс дээр асуулт, хариултад
+                                                                үргэлж Мөнхбаяр
+                                                                багш өөрөө хариулж оролцож байна. Мөн Бодлого шалгахад
+                                                                академийн Батням багш
+                                                                шалгаж, тогтмол бодлого гацалт дээр туслана.</p>
+                                                            <p>Энэхүү багц сургалтыг дуусгахад өмнөх манай идэвхитэй
+                                                                төгсөлтийн группт орж
+                                                                үе үе танхимийн кофетой тэмцээнийг хийж байх болно.
+                                                                Хичээл
+                                                                дундуур ч байх
+                                                                боломжтой. кк </p>
+                                                            <p>Сургалтад хамрагдсан танд баярлалаа. Амжилт хүсье. </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="replayTrainingBox">
+                            <h3>Replay Training</h3>
+                            <img id="" onclick="openDisplay2()"
+                                class="animate__animated animate__pulse animate__infinite myBtnLesson"
+                                src="./imgs/chess-knight-solid.png" alt="">
+                            <div id="myModalLesson2" class="modal-Lesson">
+                                <div class="modal-content-Lesson">
+                                    <span class="close closeLesson" onclick="closeDisplay2()">&times;</span>
+                                    <div class="replayTrainingContent">
+                                        <div class="swiperTraining">
+
+                                            <div class="swiper-wrapper">
+
+                                                <div class="swiper-slide">
+                                                    <h1>Насанд хүрэгчдийн анги/16 наснаас дээш/</h1>
+                                                    <h1>ЭРХЭМ ЗОРИЛГО: Шатрын Ухааныг Амьдралд</h1>
+                                                    <h1>СУРГАЛТЫН УРИА: Хоббиг чадвар болгоё </h1>
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>СУРГАЛТЫН ЗОРИЛГО:</h1>
+                                                            <p> Шатар сонирхогчдод мэргэжлийн шатарчин
+                                                                хүний онолын гүн мэдлэг, харах өнцөг, сэтгэлзүй,
+                                                                тодорхой
+                                                                туршлага гэх томоохон ур чадваруудаас суулгаж өгөх ба
+                                                                ирээдүйд 1-3 жилийн дотор Монгол улсын дэд мастер,
+                                                                спортын
+                                                                мастер цолын болзол хангуулах чухал элементүүдийг
+                                                                хичээлийн
+                                                                багц дундаа шингээж хүргэх мөн мянга мянган жил
+                                                                батлагдан
+                                                                ирсэн шатрын менежментийн ухаан болох стратеги,
+                                                                тактикийн
+                                                                гүн ойлголт, эрсдэл бага, өгөөж өндөр, шийдвэр гаргалт,
+                                                                үндэслэлтэй тооцоолох, эрсдэлийг нүүдэл тутамдаа бодох,
+                                                                алсыг харах, үнэлэн дүгнэх, тодорхой байрлалд
+                                                                өрсөлдөгчөө
+                                                                таамаглан унших, мэдрэх зэрэг амьдралд хэрэгтэй
+                                                                ухагдахуунуудыг шатраар дамжуулан өгөхөд оршино. </p>
+                                                                <h1>СУРГАЛТЫН ДАВУУ ТАЛУУД:</h1>
+                                                            <p>
+                                                                - Заагдах хичээл нь 18 жил шатрын спортоор хичээллэсэн,
+                                                                6
+                                                                жил мэргэжлийн дасгалжуулагчаар ажилласан, академийн
+                                                                үүсгэн
+                                                                байгуулагч, дэлхийн шатрын холбооны мастер, сонирхогчдын
+                                                                дэлхийн аварга, хөрөнгө оруулагч, санхүүч мэргэжилтэй,
+                                                                munkhbayar's chess youtube сувгийн хөтлөгч Мөнхбаяр
+                                                                дасгалжуулагчийн боловсруулсан хөтөлбөрийн дагуу хичээл
+                                                                явагдана.
+                                                                - Үндсэн видео хичээлийг бататгах, суралцагчийн
+                                                                тоглолтын
+                                                                алдаа оноог тодорхойлох, цаашид хэрхэн хичээллэх хувь
+                                                                хүнд
+                                                                тохирсон арга барилыг боловсруулж өгөх зэрэг
+                                                                дадлагажуулах,
+                                                                туршлагажуулах зорилгоор танхимаар амьд харилцааг
+                                                                Мөнхбаяр
+                                                                багштай үүсгэх хичээлтэй.
+                                                                - Академийн боловсруулсан зүүн тархи хөгжүүлэх дасгал
+                                                                болох
+                                                                шатрын бодлого дасгал ажлын цуврал номыг өгнө. Энэхүү
+                                                                дасгал
+                                                                ажлуудыг өдөр бүр тогтмол шалгаж, тооцоолох чадварыг
+                                                                нэмэгдүүлнэ. Цахим хэлбэрээр тогтмол алдаа, оноог шалгаж
+                                                                зөвлөмжийг тогтмол өгнө.
+                                                                - Ангид цахим тоглолтын баг үүсгэж 7 хоног бүр тогтмол 1
+                                                                удаагийн тэмцээнийг хийж байх болно. Энэхүү хоорондоо
+                                                                тоглох
+                                                                тэмцээний өрөг дээр Мөнхбаяр багш өөрөө шинжилгээ хийж,
+                                                                алдаа оноог видео хичээл болгон байршуулах болно.
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <h1>СУРГАЛТЫН ҮЙЛ ЯВЦ, МЭДЭЭЛЭЛ:</h1>
+                                                            <p>
+                                                                - 7 хоногт 3 хичээл байршуулна. /Даваа, Лхагва, Баасан/
+                                                                1
+                                                                багцад 9 хичээл байрших тул 1 багцийг 21 хоногоор бодож
+                                                                болно. Дараагийн хичээл байрших үед өмнөх хичээл нь
+                                                                идэвхигүй болно. Өмнөх өмнөх ангийн туршлагаас үзэхэд
+                                                                хичээлээ тэмдэглэгээ хийж үзээгүйгээс болж хичээл устах
+                                                                үед
+                                                                нээлгүүлэх хүсэлт их ирүүлж байсан. Тийм боломж байхгүй
+                                                                тул
+                                                                анхнаасаа бичиж, тэмдэглэж нухацтай үзэхийг шаардаж
+                                                                байна.
+                                                                - 7 хоногийн 3 /Даваа, Лхагва, Баасан/ өдрүүдэд 20:00
+                                                                цагуудад бодлогыг явуулж шалгуулна. 1 багцийн 9 удаагийн
+                                                                шалгуулалтын 2-т нь бодлого явуулаагүй үед сургалтыг
+                                                                зогсоох
+                                                                болно. Бодлого дээр гацалт үүсвэл тэр дорно бодлого
+                                                                шалгалтын багшаасаа асуух хэрэгтэй. Бодлого бол бидний
+                                                                хурдтай сайжрах боломж.
+                                                                - 7 хоногт 1 удаа /Бямба гариг/ 18:30-21:30 цагт анги
+                                                                дундах
+                                                                тэмцээн болно. Тоглолт нь цаг тааруулаад яг цагтаа
+                                                                эхэлдэг
+                                                                тул хоцрох үед нөгөөдөө нөлөөлөх тул хариуцлагатай
+                                                                тоглож
+                                                                байхыг шаардана. Тухайн өдөр тоглох боломжгүй болвол
+                                                                урьдчилан тэмцээндээ нэрээ идэвхигүй болговол нөгөөдөө
+                                                                нөлөөлөхгүй байна. Тэмцээний дараа Мөнхбаяр багш алдаа
+                                                                онооны зөволөмжийн видео оруулаад явна.
+                                                                - 6 багцийн Видео хичээл дууссаны дараагаар Даваа,
+                                                                Лхагва,
+                                                                Баасан гаригт ажлын цагийн дараа 18:30-20:30-д Мөнхбаяр
+                                                                багштай 3 удаагийн зэрэг тоглолт хийж зөвлөгөө авна. Мөн
+                                                                нэмэлт хичээл бодитоор орох юм.
+                                                                - Бодлогыг туслах багш тогтмол шалгаад явна. /Батням,
+                                                                Спортын дэд мастер/
+                                                                - Хичээлтэй холбоотой асуулт болон нэмэлт мэдээлэлтэй
+                                                                холбоотой асуултад Мөнхбаяр багш өөрөө хариулна.
+                                                                - 2-р багцийн дунд хэсэгээс танхим цуглаж чөлөөт
+                                                                тоглолтыг 7
+                                                                хоногт 1 удаа академийн байранд зохиох төлөвтэй.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>ТӨЛБӨР:</h1>
+                                                            <p>
+                                                                - Нийт 6 багц хичээл. Үндсэндээ 54 видео хичээл,
+                                                                нэмэлтээр
+                                                                бодитоор 3
+                                                                удаагийн практик тоглолт Мөнхбаяр багш гардаж хийнэ.
+                                                                - 6 багцийн үнэ 1,080,000₮
+                                                                - Төлбөрийг 3 хувааж төлөх боломжтой. /360,000₮/
+                                                                - Төлбөр төлөх данс: Хаан банк, 5018539912, Мөнхбаяр
+                                                                - Гүйлгээний утга: "Нэр, утас, сургалтын төлбөр" гэж
+                                                                бичээрэй.
+                                                            </p>
+                                                            <h1>ХОЛБОО БАРИХ:</h1>
+                                                            <p>
+                                                                - Утас: +976 86003553 /Мөнхбаяр багшийн өөрийнх нь утас
+                                                                болно./
+                                                                - Байршил: Хан уул дүүрэг, 2-р хороо, зам дагуу TV5
+                                                                телевизийн барилга, 8
+                                                                давхарт
+                                                                - Youtube: Munkhbayar’s Chess /Хичээлүүдийг сонирхон
+                                                                үзвэл.../
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <p>Ихэнх хүмүүс амьд харилцаатай хичээлд суухыг хүсдэг ч
+                                                                үнэхээр
+                                                                шатар сурах чин
+                                                                хүсэлтэй бол энэхүү дууны болон бичлэгийн гацалтгүй
+                                                                өндөр
+                                                                түвшинд
+                                                                бэлтгэгдсэн хичээлийг тухтай үзэж дуусгахад дараа нь
+                                                                танхимын болон цахимаар
+                                                                өшөө дээд шатруу амьд харилцаатай хичээл явагдахыг
+                                                                сануулая.
+                                                            </p>
+                                                            <p>Мөнхбаяр багшийн хувьд өмнө нь амьд харилцаатай заадаг
+                                                                байсан
+                                                                ч ачаалал их
+                                                                болж завгүй болсоны улмаас чанартай видео хичээл гаргах
+                                                                дээр
+                                                                ажилласан ба
+                                                                үүнээс цааш шатрын цолонд болон шатрын багшаар
+                                                                бэлтгэгдэхийг
+                                                                хүсвэл Мөнхбаяр
+                                                                багш өөрөө бие дааж туршлагажуулах ажилд оролцох юм.
+                                                            </p>
+                                                            <p>Гэхдээ энэхүү 6 багц 19 долоо хоногийн хичээлийг /сүүлийн
+                                                                7
+                                                                хоног танхимын
+                                                                практик/ хүргэхэд ойлгоогүй зүйлс дээр асуулт, хариултад
+                                                                үргэлж Мөнхбаяр
+                                                                багш өөрөө хариулж оролцож байна. Мөн Бодлого шалгахад
+                                                                академийн Батням багш
+                                                                шалгаж, тогтмол бодлого гацалт дээр туслана.</p>
+                                                            <p>Энэхүү багц сургалтыг дуусгахад өмнөх манай идэвхитэй
+                                                                төгсөлтийн группт орж
+                                                                үе үе танхимийн кофетой тэмцээнийг хийж байх болно.
+                                                                Хичээл
+                                                                дундуур ч байх
+                                                                боломжтой. кк </p>
+                                                            <p>Сургалтад хамрагдсан танд баярлалаа. Амжилт хүсье. </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-right: white solid 1px; border-top: white solid 1px;"
+                            class="replayTrainingBox">
+                            <h3>Replay Training</h3>
+                            <img onclick="openDisplay3()"
+                                class="animate__animated animate__pulse animate__infinite myBtnLesson"
+                                src="./imgs/chess-knight-solid.png" alt="">
+                            <div id="myModalLesson3" class="modal-Lesson">
+                                <div class="modal-content-Lesson">
+                                    <span class="close closeLesson" onclick="closeDisplay3()">&times;</span>
+                                    <div class="replayTrainingContent">
+                                        <div class="swiperTraining">
+
+                                            <div class="swiper-wrapper">
+
+                                                <div class="swiper-slide">
+                                                    <h1>Насанд хүрэгчдийн анги/16 наснаас дээш/</h1>
+                                                    <h1>ЭРХЭМ ЗОРИЛГО: Шатрын Ухааныг Амьдралд</h1>
+                                                    <h1>СУРГАЛТЫН УРИА: Хоббиг чадвар болгоё </h1>
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>СУРГАЛТЫН ЗОРИЛГО:</h1>
+                                                            <p> Шатар сонирхогчдод мэргэжлийн шатарчин
+                                                                хүний онолын гүн мэдлэг, харах өнцөг, сэтгэлзүй,
+                                                                тодорхой
+                                                                туршлага гэх томоохон ур чадваруудаас суулгаж өгөх ба
+                                                                ирээдүйд 1-3 жилийн дотор Монгол улсын дэд мастер,
+                                                                спортын
+                                                                мастер цолын болзол хангуулах чухал элементүүдийг
+                                                                хичээлийн
+                                                                багц дундаа шингээж хүргэх мөн мянга мянган жил
+                                                                батлагдан
+                                                                ирсэн шатрын менежментийн ухаан болох стратеги,
+                                                                тактикийн
+                                                                гүн ойлголт, эрсдэл бага, өгөөж өндөр, шийдвэр гаргалт,
+                                                                үндэслэлтэй тооцоолох, эрсдэлийг нүүдэл тутамдаа бодох,
+                                                                алсыг харах, үнэлэн дүгнэх, тодорхой байрлалд
+                                                                өрсөлдөгчөө
+                                                                таамаглан унших, мэдрэх зэрэг амьдралд хэрэгтэй
+                                                                ухагдахуунуудыг шатраар дамжуулан өгөхөд оршино. </p>
+                                                                <h1>СУРГАЛТЫН ДАВУУ ТАЛУУД:</h1>
+                                                            <p>
+                                                                - Заагдах хичээл нь 18 жил шатрын спортоор хичээллэсэн,
+                                                                6
+                                                                жил мэргэжлийн дасгалжуулагчаар ажилласан, академийн
+                                                                үүсгэн
+                                                                байгуулагч, дэлхийн шатрын холбооны мастер, сонирхогчдын
+                                                                дэлхийн аварга, хөрөнгө оруулагч, санхүүч мэргэжилтэй,
+                                                                munkhbayar's chess youtube сувгийн хөтлөгч Мөнхбаяр
+                                                                дасгалжуулагчийн боловсруулсан хөтөлбөрийн дагуу хичээл
+                                                                явагдана.
+                                                                - Үндсэн видео хичээлийг бататгах, суралцагчийн
+                                                                тоглолтын
+                                                                алдаа оноог тодорхойлох, цаашид хэрхэн хичээллэх хувь
+                                                                хүнд
+                                                                тохирсон арга барилыг боловсруулж өгөх зэрэг
+                                                                дадлагажуулах,
+                                                                туршлагажуулах зорилгоор танхимаар амьд харилцааг
+                                                                Мөнхбаяр
+                                                                багштай үүсгэх хичээлтэй.
+                                                                - Академийн боловсруулсан зүүн тархи хөгжүүлэх дасгал
+                                                                болох
+                                                                шатрын бодлого дасгал ажлын цуврал номыг өгнө. Энэхүү
+                                                                дасгал
+                                                                ажлуудыг өдөр бүр тогтмол шалгаж, тооцоолох чадварыг
+                                                                нэмэгдүүлнэ. Цахим хэлбэрээр тогтмол алдаа, оноог шалгаж
+                                                                зөвлөмжийг тогтмол өгнө.
+                                                                - Ангид цахим тоглолтын баг үүсгэж 7 хоног бүр тогтмол 1
+                                                                удаагийн тэмцээнийг хийж байх болно. Энэхүү хоорондоо
+                                                                тоглох
+                                                                тэмцээний өрөг дээр Мөнхбаяр багш өөрөө шинжилгээ хийж,
+                                                                алдаа оноог видео хичээл болгон байршуулах болно.
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <h1>СУРГАЛТЫН ҮЙЛ ЯВЦ, МЭДЭЭЛЭЛ:</h1>
+                                                            <p>
+                                                                - 7 хоногт 3 хичээл байршуулна. /Даваа, Лхагва, Баасан/
+                                                                1
+                                                                багцад 9 хичээл байрших тул 1 багцийг 21 хоногоор бодож
+                                                                болно. Дараагийн хичээл байрших үед өмнөх хичээл нь
+                                                                идэвхигүй болно. Өмнөх өмнөх ангийн туршлагаас үзэхэд
+                                                                хичээлээ тэмдэглэгээ хийж үзээгүйгээс болж хичээл устах
+                                                                үед
+                                                                нээлгүүлэх хүсэлт их ирүүлж байсан. Тийм боломж байхгүй
+                                                                тул
+                                                                анхнаасаа бичиж, тэмдэглэж нухацтай үзэхийг шаардаж
+                                                                байна.
+                                                                - 7 хоногийн 3 /Даваа, Лхагва, Баасан/ өдрүүдэд 20:00
+                                                                цагуудад бодлогыг явуулж шалгуулна. 1 багцийн 9 удаагийн
+                                                                шалгуулалтын 2-т нь бодлого явуулаагүй үед сургалтыг
+                                                                зогсоох
+                                                                болно. Бодлого дээр гацалт үүсвэл тэр дорно бодлого
+                                                                шалгалтын багшаасаа асуух хэрэгтэй. Бодлого бол бидний
+                                                                хурдтай сайжрах боломж.
+                                                                - 7 хоногт 1 удаа /Бямба гариг/ 18:30-21:30 цагт анги
+                                                                дундах
+                                                                тэмцээн болно. Тоглолт нь цаг тааруулаад яг цагтаа
+                                                                эхэлдэг
+                                                                тул хоцрох үед нөгөөдөө нөлөөлөх тул хариуцлагатай
+                                                                тоглож
+                                                                байхыг шаардана. Тухайн өдөр тоглох боломжгүй болвол
+                                                                урьдчилан тэмцээндээ нэрээ идэвхигүй болговол нөгөөдөө
+                                                                нөлөөлөхгүй байна. Тэмцээний дараа Мөнхбаяр багш алдаа
+                                                                онооны зөволөмжийн видео оруулаад явна.
+                                                                - 6 багцийн Видео хичээл дууссаны дараагаар Даваа,
+                                                                Лхагва,
+                                                                Баасан гаригт ажлын цагийн дараа 18:30-20:30-д Мөнхбаяр
+                                                                багштай 3 удаагийн зэрэг тоглолт хийж зөвлөгөө авна. Мөн
+                                                                нэмэлт хичээл бодитоор орох юм.
+                                                                - Бодлогыг туслах багш тогтмол шалгаад явна. /Батням,
+                                                                Спортын дэд мастер/
+                                                                - Хичээлтэй холбоотой асуулт болон нэмэлт мэдээлэлтэй
+                                                                холбоотой асуултад Мөнхбаяр багш өөрөө хариулна.
+                                                                - 2-р багцийн дунд хэсэгээс танхим цуглаж чөлөөт
+                                                                тоглолтыг 7
+                                                                хоногт 1 удаа академийн байранд зохиох төлөвтэй.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>ТӨЛБӨР:</h1>
+                                                            <p>
+                                                                - Нийт 6 багц хичээл. Үндсэндээ 54 видео хичээл,
+                                                                нэмэлтээр
+                                                                бодитоор 3
+                                                                удаагийн практик тоглолт Мөнхбаяр багш гардаж хийнэ.
+                                                                - 6 багцийн үнэ 1,080,000₮
+                                                                - Төлбөрийг 3 хувааж төлөх боломжтой. /360,000₮/
+                                                                - Төлбөр төлөх данс: Хаан банк, 5018539912, Мөнхбаяр
+                                                                - Гүйлгээний утга: "Нэр, утас, сургалтын төлбөр" гэж
+                                                                бичээрэй.
+                                                            </p>
+                                                            <h1>ХОЛБОО БАРИХ:</h1>
+                                                            <p>
+                                                                - Утас: +976 86003553 /Мөнхбаяр багшийн өөрийнх нь утас
+                                                                болно./
+                                                                - Байршил: Хан уул дүүрэг, 2-р хороо, зам дагуу TV5
+                                                                телевизийн барилга, 8
+                                                                давхарт
+                                                                - Youtube: Munkhbayar’s Chess /Хичээлүүдийг сонирхон
+                                                                үзвэл.../
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <p>Ихэнх хүмүүс амьд харилцаатай хичээлд суухыг хүсдэг ч
+                                                                үнэхээр
+                                                                шатар сурах чин
+                                                                хүсэлтэй бол энэхүү дууны болон бичлэгийн гацалтгүй
+                                                                өндөр
+                                                                түвшинд
+                                                                бэлтгэгдсэн хичээлийг тухтай үзэж дуусгахад дараа нь
+                                                                танхимын болон цахимаар
+                                                                өшөө дээд шатруу амьд харилцаатай хичээл явагдахыг
+                                                                сануулая.
+                                                            </p>
+                                                            <p>Мөнхбаяр багшийн хувьд өмнө нь амьд харилцаатай заадаг
+                                                                байсан
+                                                                ч ачаалал их
+                                                                болж завгүй болсоны улмаас чанартай видео хичээл гаргах
+                                                                дээр
+                                                                ажилласан ба
+                                                                үүнээс цааш шатрын цолонд болон шатрын багшаар
+                                                                бэлтгэгдэхийг
+                                                                хүсвэл Мөнхбаяр
+                                                                багш өөрөө бие дааж туршлагажуулах ажилд оролцох юм.
+                                                            </p>
+                                                            <p>Гэхдээ энэхүү 6 багц 19 долоо хоногийн хичээлийг /сүүлийн
+                                                                7
+                                                                хоног танхимын
+                                                                практик/ хүргэхэд ойлгоогүй зүйлс дээр асуулт, хариултад
+                                                                үргэлж Мөнхбаяр
+                                                                багш өөрөө хариулж оролцож байна. Мөн Бодлого шалгахад
+                                                                академийн Батням багш
+                                                                шалгаж, тогтмол бодлого гацалт дээр туслана.</p>
+                                                            <p>Энэхүү багц сургалтыг дуусгахад өмнөх манай идэвхитэй
+                                                                төгсөлтийн группт орж
+                                                                үе үе танхимийн кофетой тэмцээнийг хийж байх болно.
+                                                                Хичээл
+                                                                дундуур ч байх
+                                                                боломжтой. кк </p>
+                                                            <p>Сургалтад хамрагдсан танд баярлалаа. Амжилт хүсье. </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-right: white solid 1px; border-top: white solid 1px;"" class="
+                            replayTrainingBox">
+                            <h3>Replay Training</h3>
+                            <img id="" onclick="openDisplay4()"
+                                class="animate__animated animate__pulse animate__infinite myBtnLesson"
+                                src="./imgs/chess-bishop-solid.png" alt="">
+                            <div id="myModalLesson4" class="modal-Lesson">
+                                <div class="modal-content-Lesson">
+                                    <span class="close closeLesson" onclick="closeDisplay4()">&times;</span>
+                                    <div class="replayTrainingContent">
+                                        <div class="swiperTraining">
+
+                                            <div class="swiper-wrapper">
+
+                                                <div class="swiper-slide">
+                                                    <h1>Насанд хүрэгчдийн анги/16 наснаас дээш/</h1>
+                                                    <h1>ЭРХЭМ ЗОРИЛГО: Шатрын Ухааныг Амьдралд</h1>
+                                                    <h1>СУРГАЛТЫН УРИА: Хоббиг чадвар болгоё </h1>
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>СУРГАЛТЫН ЗОРИЛГО:</h1>
+                                                            <p> Шатар сонирхогчдод мэргэжлийн шатарчин
+                                                                хүний онолын гүн мэдлэг, харах өнцөг, сэтгэлзүй,
+                                                                тодорхой
+                                                                туршлага гэх томоохон ур чадваруудаас суулгаж өгөх ба
+                                                                ирээдүйд 1-3 жилийн дотор Монгол улсын дэд мастер,
+                                                                спортын
+                                                                мастер цолын болзол хангуулах чухал элементүүдийг
+                                                                хичээлийн
+                                                                багц дундаа шингээж хүргэх мөн мянга мянган жил
+                                                                батлагдан
+                                                                ирсэн шатрын менежментийн ухаан болох стратеги,
+                                                                тактикийн
+                                                                гүн ойлголт, эрсдэл бага, өгөөж өндөр, шийдвэр гаргалт,
+                                                                үндэслэлтэй тооцоолох, эрсдэлийг нүүдэл тутамдаа бодох,
+                                                                алсыг харах, үнэлэн дүгнэх, тодорхой байрлалд
+                                                                өрсөлдөгчөө
+                                                                таамаглан унших, мэдрэх зэрэг амьдралд хэрэгтэй
+                                                                ухагдахуунуудыг шатраар дамжуулан өгөхөд оршино. </p>
+                                                                <h1>СУРГАЛТЫН ДАВУУ ТАЛУУД:</h1>
+                                                            <p>
+                                                                - Заагдах хичээл нь 18 жил шатрын спортоор хичээллэсэн,
+                                                                6
+                                                                жил мэргэжлийн дасгалжуулагчаар ажилласан, академийн
+                                                                үүсгэн
+                                                                байгуулагч, дэлхийн шатрын холбооны мастер, сонирхогчдын
+                                                                дэлхийн аварга, хөрөнгө оруулагч, санхүүч мэргэжилтэй,
+                                                                munkhbayar's chess youtube сувгийн хөтлөгч Мөнхбаяр
+                                                                дасгалжуулагчийн боловсруулсан хөтөлбөрийн дагуу хичээл
+                                                                явагдана.
+                                                                - Үндсэн видео хичээлийг бататгах, суралцагчийн
+                                                                тоглолтын
+                                                                алдаа оноог тодорхойлох, цаашид хэрхэн хичээллэх хувь
+                                                                хүнд
+                                                                тохирсон арга барилыг боловсруулж өгөх зэрэг
+                                                                дадлагажуулах,
+                                                                туршлагажуулах зорилгоор танхимаар амьд харилцааг
+                                                                Мөнхбаяр
+                                                                багштай үүсгэх хичээлтэй.
+                                                                - Академийн боловсруулсан зүүн тархи хөгжүүлэх дасгал
+                                                                болох
+                                                                шатрын бодлого дасгал ажлын цуврал номыг өгнө. Энэхүү
+                                                                дасгал
+                                                                ажлуудыг өдөр бүр тогтмол шалгаж, тооцоолох чадварыг
+                                                                нэмэгдүүлнэ. Цахим хэлбэрээр тогтмол алдаа, оноог шалгаж
+                                                                зөвлөмжийг тогтмол өгнө.
+                                                                - Ангид цахим тоглолтын баг үүсгэж 7 хоног бүр тогтмол 1
+                                                                удаагийн тэмцээнийг хийж байх болно. Энэхүү хоорондоо
+                                                                тоглох
+                                                                тэмцээний өрөг дээр Мөнхбаяр багш өөрөө шинжилгээ хийж,
+                                                                алдаа оноог видео хичээл болгон байршуулах болно.
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <h1>СУРГАЛТЫН ҮЙЛ ЯВЦ, МЭДЭЭЛЭЛ:</h1>
+                                                            <p>
+                                                                - 7 хоногт 3 хичээл байршуулна. /Даваа, Лхагва, Баасан/
+                                                                1
+                                                                багцад 9 хичээл байрших тул 1 багцийг 21 хоногоор бодож
+                                                                болно. Дараагийн хичээл байрших үед өмнөх хичээл нь
+                                                                идэвхигүй болно. Өмнөх өмнөх ангийн туршлагаас үзэхэд
+                                                                хичээлээ тэмдэглэгээ хийж үзээгүйгээс болж хичээл устах
+                                                                үед
+                                                                нээлгүүлэх хүсэлт их ирүүлж байсан. Тийм боломж байхгүй
+                                                                тул
+                                                                анхнаасаа бичиж, тэмдэглэж нухацтай үзэхийг шаардаж
+                                                                байна.
+                                                                - 7 хоногийн 3 /Даваа, Лхагва, Баасан/ өдрүүдэд 20:00
+                                                                цагуудад бодлогыг явуулж шалгуулна. 1 багцийн 9 удаагийн
+                                                                шалгуулалтын 2-т нь бодлого явуулаагүй үед сургалтыг
+                                                                зогсоох
+                                                                болно. Бодлого дээр гацалт үүсвэл тэр дорно бодлого
+                                                                шалгалтын багшаасаа асуух хэрэгтэй. Бодлого бол бидний
+                                                                хурдтай сайжрах боломж.
+                                                                - 7 хоногт 1 удаа /Бямба гариг/ 18:30-21:30 цагт анги
+                                                                дундах
+                                                                тэмцээн болно. Тоглолт нь цаг тааруулаад яг цагтаа
+                                                                эхэлдэг
+                                                                тул хоцрох үед нөгөөдөө нөлөөлөх тул хариуцлагатай
+                                                                тоглож
+                                                                байхыг шаардана. Тухайн өдөр тоглох боломжгүй болвол
+                                                                урьдчилан тэмцээндээ нэрээ идэвхигүй болговол нөгөөдөө
+                                                                нөлөөлөхгүй байна. Тэмцээний дараа Мөнхбаяр багш алдаа
+                                                                онооны зөволөмжийн видео оруулаад явна.
+                                                                - 6 багцийн Видео хичээл дууссаны дараагаар Даваа,
+                                                                Лхагва,
+                                                                Баасан гаригт ажлын цагийн дараа 18:30-20:30-д Мөнхбаяр
+                                                                багштай 3 удаагийн зэрэг тоглолт хийж зөвлөгөө авна. Мөн
+                                                                нэмэлт хичээл бодитоор орох юм.
+                                                                - Бодлогыг туслах багш тогтмол шалгаад явна. /Батням,
+                                                                Спортын дэд мастер/
+                                                                - Хичээлтэй холбоотой асуулт болон нэмэлт мэдээлэлтэй
+                                                                холбоотой асуултад Мөнхбаяр багш өөрөө хариулна.
+                                                                - 2-р багцийн дунд хэсэгээс танхим цуглаж чөлөөт
+                                                                тоглолтыг 7
+                                                                хоногт 1 удаа академийн байранд зохиох төлөвтэй.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>ТӨЛБӨР:</h1>
+                                                            <p>
+                                                                - Нийт 6 багц хичээл. Үндсэндээ 54 видео хичээл,
+                                                                нэмэлтээр
+                                                                бодитоор 3
+                                                                удаагийн практик тоглолт Мөнхбаяр багш гардаж хийнэ.
+                                                                - 6 багцийн үнэ 1,080,000₮
+                                                                - Төлбөрийг 3 хувааж төлөх боломжтой. /360,000₮/
+                                                                - Төлбөр төлөх данс: Хаан банк, 5018539912, Мөнхбаяр
+                                                                - Гүйлгээний утга: "Нэр, утас, сургалтын төлбөр" гэж
+                                                                бичээрэй.
+                                                            </p>
+                                                            <h1>ХОЛБОО БАРИХ:</h1>
+                                                            <p>
+                                                                - Утас: +976 86003553 /Мөнхбаяр багшийн өөрийнх нь утас
+                                                                болно./
+                                                                - Байршил: Хан уул дүүрэг, 2-р хороо, зам дагуу TV5
+                                                                телевизийн барилга, 8
+                                                                давхарт
+                                                                - Youtube: Munkhbayar’s Chess /Хичээлүүдийг сонирхон
+                                                                үзвэл.../
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <p>Ихэнх хүмүүс амьд харилцаатай хичээлд суухыг хүсдэг ч
+                                                                үнэхээр
+                                                                шатар сурах чин
+                                                                хүсэлтэй бол энэхүү дууны болон бичлэгийн гацалтгүй
+                                                                өндөр
+                                                                түвшинд
+                                                                бэлтгэгдсэн хичээлийг тухтай үзэж дуусгахад дараа нь
+                                                                танхимын болон цахимаар
+                                                                өшөө дээд шатруу амьд харилцаатай хичээл явагдахыг
+                                                                сануулая.
+                                                            </p>
+                                                            <p>Мөнхбаяр багшийн хувьд өмнө нь амьд харилцаатай заадаг
+                                                                байсан
+                                                                ч ачаалал их
+                                                                болж завгүй болсоны улмаас чанартай видео хичээл гаргах
+                                                                дээр
+                                                                ажилласан ба
+                                                                үүнээс цааш шатрын цолонд болон шатрын багшаар
+                                                                бэлтгэгдэхийг
+                                                                хүсвэл Мөнхбаяр
+                                                                багш өөрөө бие дааж туршлагажуулах ажилд оролцох юм.
+                                                            </p>
+                                                            <p>Гэхдээ энэхүү 6 багц 19 долоо хоногийн хичээлийг /сүүлийн
+                                                                7
+                                                                хоног танхимын
+                                                                практик/ хүргэхэд ойлгоогүй зүйлс дээр асуулт, хариултад
+                                                                үргэлж Мөнхбаяр
+                                                                багш өөрөө хариулж оролцож байна. Мөн Бодлого шалгахад
+                                                                академийн Батням багш
+                                                                шалгаж, тогтмол бодлого гацалт дээр туслана.</p>
+                                                            <p>Энэхүү багц сургалтыг дуусгахад өмнөх манай идэвхитэй
+                                                                төгсөлтийн группт орж
+                                                                үе үе танхимийн кофетой тэмцээнийг хийж байх болно.
+                                                                Хичээл
+                                                                дундуур ч байх
+                                                                боломжтой. кк </p>
+                                                            <p>Сургалтад хамрагдсан танд баярлалаа. Амжилт хүсье. </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-top: white solid 1px;" class="replayTrainingBox">
+                            <h3>Replay Training</h3>
+                            <img id="" onclick="openDisplay5()"
+                                class="animate__animated animate__pulse animate__infinite myBtnLesson"
+                                src="./imgs/chess-king-solid.png" alt="">
+                            <div id="myModalLesson5" class="modal-Lesson">
+                                <div class="modal-content-Lesson">
+                                    <span class="close closeLesson" onclick="closeDisplay5()">&times;</span>
+                                    <div class="replayTrainingContent">
+                                        <div class="swiperTraining">
+
+                                            <div class="swiper-wrapper">
+
+                                                <div class="swiper-slide">
+                                                    <h1>Насанд хүрэгчдийн анги/16 наснаас дээш/</h1>
+                                                    <h1>ЭРХЭМ ЗОРИЛГО: Шатрын Ухааныг Амьдралд</h1>
+                                                    <h1>СУРГАЛТЫН УРИА: Хоббиг чадвар болгоё </h1>
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>СУРГАЛТЫН ЗОРИЛГО:</h1>
+                                                            <p> Шатар сонирхогчдод мэргэжлийн шатарчин
+                                                                хүний онолын гүн мэдлэг, харах өнцөг, сэтгэлзүй,
+                                                                тодорхой
+                                                                туршлага гэх томоохон ур чадваруудаас суулгаж өгөх ба
+                                                                ирээдүйд 1-3 жилийн дотор Монгол улсын дэд мастер,
+                                                                спортын
+                                                                мастер цолын болзол хангуулах чухал элементүүдийг
+                                                                хичээлийн
+                                                                багц дундаа шингээж хүргэх мөн мянга мянган жил
+                                                                батлагдан
+                                                                ирсэн шатрын менежментийн ухаан болох стратеги,
+                                                                тактикийн
+                                                                гүн ойлголт, эрсдэл бага, өгөөж өндөр, шийдвэр гаргалт,
+                                                                үндэслэлтэй тооцоолох, эрсдэлийг нүүдэл тутамдаа бодох,
+                                                                алсыг харах, үнэлэн дүгнэх, тодорхой байрлалд
+                                                                өрсөлдөгчөө
+                                                                таамаглан унших, мэдрэх зэрэг амьдралд хэрэгтэй
+                                                                ухагдахуунуудыг шатраар дамжуулан өгөхөд оршино. </p>
+                                                                <h1>СУРГАЛТЫН ДАВУУ ТАЛУУД:</h1>
+                                                            <p>
+                                                                - Заагдах хичээл нь 18 жил шатрын спортоор хичээллэсэн,
+                                                                6
+                                                                жил мэргэжлийн дасгалжуулагчаар ажилласан, академийн
+                                                                үүсгэн
+                                                                байгуулагч, дэлхийн шатрын холбооны мастер, сонирхогчдын
+                                                                дэлхийн аварга, хөрөнгө оруулагч, санхүүч мэргэжилтэй,
+                                                                munkhbayar's chess youtube сувгийн хөтлөгч Мөнхбаяр
+                                                                дасгалжуулагчийн боловсруулсан хөтөлбөрийн дагуу хичээл
+                                                                явагдана.
+                                                                - Үндсэн видео хичээлийг бататгах, суралцагчийн
+                                                                тоглолтын
+                                                                алдаа оноог тодорхойлох, цаашид хэрхэн хичээллэх хувь
+                                                                хүнд
+                                                                тохирсон арга барилыг боловсруулж өгөх зэрэг
+                                                                дадлагажуулах,
+                                                                туршлагажуулах зорилгоор танхимаар амьд харилцааг
+                                                                Мөнхбаяр
+                                                                багштай үүсгэх хичээлтэй.
+                                                                - Академийн боловсруулсан зүүн тархи хөгжүүлэх дасгал
+                                                                болох
+                                                                шатрын бодлого дасгал ажлын цуврал номыг өгнө. Энэхүү
+                                                                дасгал
+                                                                ажлуудыг өдөр бүр тогтмол шалгаж, тооцоолох чадварыг
+                                                                нэмэгдүүлнэ. Цахим хэлбэрээр тогтмол алдаа, оноог шалгаж
+                                                                зөвлөмжийг тогтмол өгнө.
+                                                                - Ангид цахим тоглолтын баг үүсгэж 7 хоног бүр тогтмол 1
+                                                                удаагийн тэмцээнийг хийж байх болно. Энэхүү хоорондоо
+                                                                тоглох
+                                                                тэмцээний өрөг дээр Мөнхбаяр багш өөрөө шинжилгээ хийж,
+                                                                алдаа оноог видео хичээл болгон байршуулах болно.
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <h1>СУРГАЛТЫН ҮЙЛ ЯВЦ, МЭДЭЭЛЭЛ:</h1>
+                                                            <p>
+                                                                - 7 хоногт 3 хичээл байршуулна. /Даваа, Лхагва, Баасан/
+                                                                1
+                                                                багцад 9 хичээл байрших тул 1 багцийг 21 хоногоор бодож
+                                                                болно. Дараагийн хичээл байрших үед өмнөх хичээл нь
+                                                                идэвхигүй болно. Өмнөх өмнөх ангийн туршлагаас үзэхэд
+                                                                хичээлээ тэмдэглэгээ хийж үзээгүйгээс болж хичээл устах
+                                                                үед
+                                                                нээлгүүлэх хүсэлт их ирүүлж байсан. Тийм боломж байхгүй
+                                                                тул
+                                                                анхнаасаа бичиж, тэмдэглэж нухацтай үзэхийг шаардаж
+                                                                байна.
+                                                                - 7 хоногийн 3 /Даваа, Лхагва, Баасан/ өдрүүдэд 20:00
+                                                                цагуудад бодлогыг явуулж шалгуулна. 1 багцийн 9 удаагийн
+                                                                шалгуулалтын 2-т нь бодлого явуулаагүй үед сургалтыг
+                                                                зогсоох
+                                                                болно. Бодлого дээр гацалт үүсвэл тэр дорно бодлого
+                                                                шалгалтын багшаасаа асуух хэрэгтэй. Бодлого бол бидний
+                                                                хурдтай сайжрах боломж.
+                                                                - 7 хоногт 1 удаа /Бямба гариг/ 18:30-21:30 цагт анги
+                                                                дундах
+                                                                тэмцээн болно. Тоглолт нь цаг тааруулаад яг цагтаа
+                                                                эхэлдэг
+                                                                тул хоцрох үед нөгөөдөө нөлөөлөх тул хариуцлагатай
+                                                                тоглож
+                                                                байхыг шаардана. Тухайн өдөр тоглох боломжгүй болвол
+                                                                урьдчилан тэмцээндээ нэрээ идэвхигүй болговол нөгөөдөө
+                                                                нөлөөлөхгүй байна. Тэмцээний дараа Мөнхбаяр багш алдаа
+                                                                онооны зөволөмжийн видео оруулаад явна.
+                                                                - 6 багцийн Видео хичээл дууссаны дараагаар Даваа,
+                                                                Лхагва,
+                                                                Баасан гаригт ажлын цагийн дараа 18:30-20:30-д Мөнхбаяр
+                                                                багштай 3 удаагийн зэрэг тоглолт хийж зөвлөгөө авна. Мөн
+                                                                нэмэлт хичээл бодитоор орох юм.
+                                                                - Бодлогыг туслах багш тогтмол шалгаад явна. /Батням,
+                                                                Спортын дэд мастер/
+                                                                - Хичээлтэй холбоотой асуулт болон нэмэлт мэдээлэлтэй
+                                                                холбоотой асуултад Мөнхбаяр багш өөрөө хариулна.
+                                                                - 2-р багцийн дунд хэсэгээс танхим цуглаж чөлөөт
+                                                                тоглолтыг 7
+                                                                хоногт 1 удаа академийн байранд зохиох төлөвтэй.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="trainingContent">
+                                                        <div class="trainingLeft">
+                                                            <h1>ТӨЛБӨР:</h1>
+                                                            <p>
+                                                                - Нийт 6 багц хичээл. Үндсэндээ 54 видео хичээл,
+                                                                нэмэлтээр
+                                                                бодитоор 3
+                                                                удаагийн практик тоглолт Мөнхбаяр багш гардаж хийнэ.
+                                                                - 6 багцийн үнэ 1,080,000₮
+                                                                - Төлбөрийг 3 хувааж төлөх боломжтой. /360,000₮/
+                                                                - Төлбөр төлөх данс: Хаан банк, 5018539912, Мөнхбаяр
+                                                                - Гүйлгээний утга: "Нэр, утас, сургалтын төлбөр" гэж
+                                                                бичээрэй.
+                                                            </p>
+                                                            <h1>ХОЛБОО БАРИХ:</h1>
+                                                            <p>
+                                                                - Утас: +976 86003553 /Мөнхбаяр багшийн өөрийнх нь утас
+                                                                болно./
+                                                                - Байршил: Хан уул дүүрэг, 2-р хороо, зам дагуу TV5
+                                                                телевизийн барилга, 8
+                                                                давхарт
+                                                                - Youtube: Munkhbayar’s Chess /Хичээлүүдийг сонирхон
+                                                                үзвэл.../
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="trainingRight">
+                                                            <p>Ихэнх хүмүүс амьд харилцаатай хичээлд суухыг хүсдэг ч
+                                                                үнэхээр
+                                                                шатар сурах чин
+                                                                хүсэлтэй бол энэхүү дууны болон бичлэгийн гацалтгүй
+                                                                өндөр
+                                                                түвшинд
+                                                                бэлтгэгдсэн хичээлийг тухтай үзэж дуусгахад дараа нь
+                                                                танхимын болон цахимаар
+                                                                өшөө дээд шатруу амьд харилцаатай хичээл явагдахыг
+                                                                сануулая.
+                                                            </p>
+                                                            <p>Мөнхбаяр багшийн хувьд өмнө нь амьд харилцаатай заадаг
+                                                                байсан
+                                                                ч ачаалал их
+                                                                болж завгүй болсоны улмаас чанартай видео хичээл гаргах
+                                                                дээр
+                                                                ажилласан ба
+                                                                үүнээс цааш шатрын цолонд болон шатрын багшаар
+                                                                бэлтгэгдэхийг
+                                                                хүсвэл Мөнхбаяр
+                                                                багш өөрөө бие дааж туршлагажуулах ажилд оролцох юм.
+                                                            </p>
+                                                            <p>Гэхдээ энэхүү 6 багц 19 долоо хоногийн хичээлийг /сүүлийн
+                                                                7
+                                                                хоног танхимын
+                                                                практик/ хүргэхэд ойлгоогүй зүйлс дээр асуулт, хариултад
+                                                                үргэлж Мөнхбаяр
+                                                                багш өөрөө хариулж оролцож байна. Мөн Бодлого шалгахад
+                                                                академийн Батням багш
+                                                                шалгаж, тогтмол бодлого гацалт дээр туслана.</p>
+                                                            <p>Энэхүү багц сургалтыг дуусгахад өмнөх манай идэвхитэй
+                                                                төгсөлтийн группт орж
+                                                                үе үе танхимийн кофетой тэмцээнийг хийж байх болно.
+                                                                Хичээл
+                                                                дундуур ч байх
+                                                                боломжтой. кк </p>
+                                                            <p>Сургалтад хамрагдсан танд баярлалаа. Амжилт хүсье. </p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-slide" id="page5">
+                <section id="aboutUs">
+
+                    <div style="width: 1500px; display: flex;">
+                        <div class="aboutUsLeft">
+                            <div class="aboutUsLeftContainer">
+                                <div class="aboutUsLeftContainer1">
+                                    <h1>01</h1>
+                                    <h2>ABOUT US</h2>
+                                </div>
+                                <div class="aboutUsLeftContainer2">
+                                    <p style="font-weight: bold;margin-right: 20%;">Kids Chess Club is a non-profit
+                                        Company founded.</p>
+                                    <p>Our goal is to teach children in grades K-12 abstract concepts of planning,
+                                        analysis and strategy through the game of chess.</p>
+                                    <p>Kids will be excited to understand and amazed by the positive experience that
+                                        chess offers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aboutUsRight">
+                            <img src="./imgs/aboutUs.JPG" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- <div class="swiper-slide" id="page6">
+            <div class="ceo">
+              <div class="ceoContainer">
+                  <div class="ceoContainerLeft">
+                      <img src="./imgs/chessCeo.PNG" alt="">
+                  </div>
+                  <div class="ceoContainerRight">
+                      <h1>Acedemic chess for kids</h1>
+                      <p>Kids Chess Club is a non-profit Company founded by International Chess Master Larry Evans and Tom Callaghan as a way to provide more chess classes to more kids.</p>
+                      <p>Our goal is to teach children in grades K-12 abstract concepts of planning, analysis and strategy through the game of chess. Kids will be excited to understand and amazed by the positive experience that chess offers.</p>
+                  </div>
+                  
+              </div>
+              <div class="ceoContainerBottom">
+                  <p>"</p>
+                  <h3>lorem ipsumlorem ipsumlorem ipsumlorem ipsum</h3>
+                  <p>"</p>
+              </div>
+            </div>
+            </div> -->
+            <!-- <div class="swiper-slide">
+              <div class="ourGallery">
+                
+                <div class="ourGalleryContainer">
+                    <div class="ourGalleryBack"></div>
+                    <div class="swiper2">
+                        <div class="swiper-wrapper">
+                      
+                            <div class="swiper-slide" >
+                                <div class="ourGalleryBox">
+                                  <img src="./imgs/ourGallery2.JPG" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ourGalleryBox">
+                                  <img src="./imgs/ourGallery2.JPG" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ourGalleryBox">
+                                    <img src="./imgs/ourGallery3.JPG" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ourGalleryBox">
+                                    <img src="./imgs/ourGallery3.JPG" alt="">
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="swiper-pagination"></div>
+
+                        
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      
+                      </div>
+                </div>
+              </div>
+          </div> -->
+            <div class="swiper-slide">
+                <div class="boardContainer">
+                    <div class="boardBody">
+                        <div class="board">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="glass">
+                                <p class="text">
+                                    <a href="#">Тун удахгүй</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boardBody">
+                        <div class="board">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="glass">
+                                <p class="text">
+                                    <a href="#">Тун удахгүй</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boardBody">
+                        <div class="board">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="glass">
+                                <p class="text">
+                                    <a href="#">Тун удахгүй</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boardBody">
+                        <div class="board">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="glass">
+                                <p class="text">
+                                    <a href="#">Тун удахгүй</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boardBody">
+                        <div class="board">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="glass">
+                                <p class="text">
+                                    <a href="#">Тун удахгүй</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="contactInfo">
+                    <h1>Холбогдох</h1>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fa fa-home"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fa fa-phone"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Steinitz.Mongolian.Chess.Academy">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/steinitzchessacademy/">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fa fa-instagram"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCBCjlLbsnDWlQR3Pbk_Qz5A">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span class="fa fa-youtube-play"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div style="display: flex; align-items: center; margin-left: 5%;">
+                    <div class="partners">
+                        <img src="./imgs/pengux.png" alt="">
+                        <img src="./imgs/hover.png" alt="">
+                        <img src="./imgs/mnkhod.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="./js/swiper.js"></script>
+    <script src="./js/main.js"></script>>
+</body>
+
+</html>

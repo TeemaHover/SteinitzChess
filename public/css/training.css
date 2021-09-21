@@ -1,0 +1,30 @@
+.trainingContent {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.trainingContent p {
+    text-align: justify;
+}
+
+.trainingLeft {
+    width: 50%;
+    padding: 5% 5%;
+}
+
+.trainingRight {
+    width: 50%;
+    padding: 5% 5%;
+}
+
+.swiper-button-prev {
+    margin-left: 10%;
+}
+
+.swiper-button-next {
+    margin-right: 10%;
+}
